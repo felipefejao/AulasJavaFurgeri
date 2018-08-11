@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Exemplo02 {
 
+	
 	public static void main(String[] args) {
 		String v1 = JOptionPane.showInputDialog("Digite um numero: ");
 		String v2 = JOptionPane.showInputDialog("Digite um numero: ");
@@ -21,6 +22,9 @@ public class Exemplo02 {
 		}
 		catch (ArithmeticException error) {
 			JOptionPane.showMessageDialog(null, "Divisão por zero");
+		}
+		finally {
+			JOptionPane.showMessageDialog(null,"FIM");
 		}
 
 	}
