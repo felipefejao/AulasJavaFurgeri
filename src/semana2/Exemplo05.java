@@ -6,7 +6,7 @@ public class Exemplo05 {
 		if(a==1) {
 			System.out.println("Um");
 		}
-		else if(a ==2) {
+		else if(a==2) {
 			System.out.println("Dois");
 		}
 		else if(a==9) {
@@ -15,5 +15,7 @@ public class Exemplo05 {
 		else {
 			System.out.println("Unknown");
 		}
+		
+		foreach
 	}
 }
