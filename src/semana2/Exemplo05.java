@@ -16,6 +16,6 @@ public class Exemplo05 {
 			System.out.println("Unknown");
 		}
 		
-		foreach
+		
 	}
 }
