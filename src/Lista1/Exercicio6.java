@@ -9,9 +9,9 @@ public class Exercicio6 {
 		try {
 			int conv = Integer.parseInt(n1);
 			
-			JOptionPane.showMessageDialog(null, "É inteiro");
+			JOptionPane.showMessageDialog(null, conv +" é inteiro");
 		}catch (NumberFormatException e) {
-			JOptionPane.showMessageDialog(null, "Não é inteiro");
+			JOptionPane.showMessageDialog(null, " não é inteiro");
 		}
 	}
 }
