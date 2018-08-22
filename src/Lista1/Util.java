@@ -32,5 +32,18 @@ public class Util {
 		return value;
 		
 	}
+	
+	public static int getInputInt(String mensagem) {
+		int value = 0;
+		try {
+			value = Integer.parseInt(JOptionPane.showInputDialog(mensagem));
+		}catch(NumberFormatException ex) {
+			JOptionPane.showMessageDialog(null, "Número inválido");
+			System.exit(0);
+		}
+		
+		return value;
+		
+	}
 
 }
